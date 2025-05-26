@@ -1,4 +1,5 @@
 **SUMMARY**
+
 In this work we show the use of a neural mass model equipped with D1 dopaminergic modulation of AMPA currents. This model is an extended version of the work of Gast et al (https://doi.org/10.1073/pnas.2311885121) that includes a dose-dependent neuromodulatory effect of dopamine, similarly to that of Depannemaecker et al (https://doi.org/10.1101/2024.06.23.600260). 
 
 This model simulates the brain as a network of neural mass models, integrating dopamine dynamics with glutamatergic and GABAergic synaptic interactions. It adapts a neural mass model to include the effects of dopamine via the D1 receptor, which enhances excitatory synaptic currents (AMPA and NMDA channels). Dopaminergic inputs and reuptake regulate dopamine concentration at each node. 
@@ -15,3 +16,5 @@ The folder structural_data contains all the weights, connectivity masks, and rec
 
 **For running the model**
 You will simply need to install jax in your python environment, and you can get started!
+
+**Please read the documentation.pdf file for a detailed description of the model and references.**
