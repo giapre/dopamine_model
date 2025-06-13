@@ -8,13 +8,13 @@ This approach allows for the simulation of neuromodulatory effects across differ
 
 In this repository, the core mathematical model is implemented in gast_model.py, which includes equations for excitatory-only systems, as well as extended formulations that incorporate inhibitory and dopaminergic dynamics. Parameter values used in the equations are also provided within the same file.
 
-The utils.py module contains numerical integration routines based on the JAX library, adapted from vbjax (Marmaduke Woodman, Abolfazl Ziaeemehr, see doi: 10.5281/zenodo.14204249). It also includes utilities for simulating BOLD signals and computing Functional Connectivity Dynamics (FCD).
+The utils.py module contains utilities for simulating BOLD signals and computing Functional Connectivity Dynamics (FCD). They leverage on vbjax (Marmaduke Woodman, Abolfazl Ziaeemehr, see doi: 10.5281/zenodo.14204249), a library for numerical integration routines based on the JAX library. 
 
 The example.ipynb notebook demonstrates how to use the model in both single-node and whole-brain simulations. It begins by analyzing the dynamical repertoire of a single node across different input currents, illustrating the range of regimes the system can express. It then moves to full-network simulations, showcasing how to compute BOLD signals, structure-function connectivity (SCFC), and FCD. Finally, the notebook includes a brief parameter sweep over the excitatory connectivity weight (we), highlighting an optimal range where SCFC and FCD are maximized.
 
 The folder structural_data contains all the weights, connectivity masks, and receptor files for the three atlases.
 
 **For running the model**
-You will simply need to install jax in your python environment, and you can get started!
+You will simply need to install vbjax in your python environment, and you can get started!
 
 **Please read the documentation.pdf file for a detailed description of the model and references.**
