@@ -15,6 +15,6 @@ The example.ipynb notebook demonstrates how to use the model in both single-node
 The folder structural_data contains all the weights, connectivity masks, and receptor files for the three atlases.
 
 **For running the model**
-You will simply need to install vbjax in your python environment, and you can get started!
+You will simply need to install vbjax in your python environment, and you can get started! You can check the versions you need in the notebook example.ipynb. 
 
 **Please read the documentation.pdf file for a detailed description of the model and references.**
